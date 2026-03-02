@@ -1,4 +1,4 @@
-from src.temp_func import cel_to_fah, fah_to_cel, temp_to_kel
+from temp_func import cel_to_fah, fah_to_cel, temp_to_kel
 # DO NOT UPDATE CODE ABOVE THIS LINE
 
 deg_str = chr(176)
