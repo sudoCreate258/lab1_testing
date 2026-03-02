@@ -16,6 +16,7 @@ opt = "cel_to_fah:\n\t"
 opt += f"{arg}{deg_str}C is {exp}{deg_str}F"
 print(opt)
 
+assert False, 'test'
 # - fah_to_cel
 # TODO - (Input) Assign data for test cases
 # TODO - (Process) Introduce the assert statememts
