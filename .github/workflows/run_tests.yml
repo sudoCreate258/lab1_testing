@@ -20,9 +20,3 @@ jobs:
         run: |
           export PYTHONPATH=src
           python3 src/main.py | tee test_output.txt
-
-      - name: Upload test output
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-output
-          path: test_output.txt
