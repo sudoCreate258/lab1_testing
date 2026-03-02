@@ -17,7 +17,7 @@ jobs:
     - name: Run tests
       run: |
         export PYTHONPATH="${PYTHONPATH}:$(pwd)/src"
-        python main.py > test_output.txt 2>&1
+        python src/tests.py > test_output.txt 2>&1
     
     - name: Upload test output
       uses: actions/upload-artifact@v4
