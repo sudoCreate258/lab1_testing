@@ -18,3 +18,21 @@ def temp_to_kel(temp):
     new_temp = (c_flag and float(temp_lst[0]) + 273.15) or False
     new_temp = new_temp or (float(fah_to_cel(temp).split(deg_str)[0]) + 273.15)
     return f"{new_temp:.1f} K"
+
+def print_steps(temp):
+    temp_lst = temp.split(deg_str)
+    val = float(temp_lst[0])
+    c_flag = temp_lst[1] == 'C'
+    f_flag = temp_lst[1] == 'F'
+
+    #TODO (process) create string for celsius from - step 2
+    str_fahr = ""
+    c_flag and print(str_fahr)
+  
+    str_cels =  f"C{deg_str} = ({deg_str}F - 32) / (9/5)\n"
+    str_cels += f"C{deg_str} = ({val} - 32) / (9/5)\n"
+    str_cels += f"C{deg_str} = {val - 32} / {9/5}\n"
+    str_cels += f"C{deg_str} = {(val - 32) / (9/5)}\n"
+    f_flag and print(str_cels)
+    
+    return ""
