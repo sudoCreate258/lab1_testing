@@ -31,10 +31,10 @@ def print_steps(temp):
     str_cels += f"C{deg_str} = ({val} - 32) / (9/5)\n"
     str_cels += f"C{deg_str} = {val - 32} / {9/5}\n"
     str_cels += f"C{deg_str} = {(val - 32) / (9/5)}\n"
-    f_flag and print(str_cels)
+    c_flag and print(str_cels)
     
-    #TODO create string for celsius from step 2
+    #TODO create string for fahr - step 2
     str_fahr = "" 
-    c_flag and print(str_fahr)
+    f_flag and print(str_fahr)
     
     return ""
