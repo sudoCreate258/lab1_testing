@@ -39,7 +39,6 @@ def print_steps(temp):
     str_fahr = "" 
     c_flag and print(str_fahr)
     
-    
     str_kelv =  f"C{deg_str} = K - 273.15\n"           #print C from K
     str_kelv += f"C{deg_str} = {val} - 273.15\n"  
     str_kelv += f"C{deg_str} = {val - 273.15:.3f}\n\n"
